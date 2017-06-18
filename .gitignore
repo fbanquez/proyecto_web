@@ -1,0 +1,15 @@
+# no incluir archivos con extension .a
+*.a
+
+# pero versiona el archivo lib.a, a pesar de ignorar los archivos .a arriba
+!lib.a
+
+# ignora todos los archivos en la carpeta build/
+build/
+
+# ignora el archivo doc/notes.txt, pero no doc/server/arch.txt
+doc/*.txt
+
+# ignora todos los archivos con extension .txt dentro del directorio doc/
+doc/**/*.txt
+
