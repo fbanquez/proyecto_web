@@ -1,1 +1,8 @@
 Se registra algún cambio
+
+Se agregaron 2 nuevos scripts a la librería:
+  - fibonacci: contiene las intrucciones para generar una secuencia 
+               fibonacci a partir de un entero.
+  - busqueda_rapida: contiene dos métodos que implementan la busqueda
+               quicksort en una lista
+
